@@ -11,11 +11,13 @@ public class Player : MonoBehaviour {
     //variale for jumpforce
     [SerializeField]
     private float liftForce = 5.0f;
-
     [SerializeField]
     private LayerMask groundLayer;
 
     private bool resetJumpNeeded = false;
+
+    [SerializeField]
+    private float moveSpeed = 2.5f;
 
     // Use this for initialization
     void Start () {
@@ -33,7 +35,7 @@ public class Player : MonoBehaviour {
     {
         float move = Input.GetAxisRaw("Horizontal");
 
-        rb.velocity = new Vector2(move, rb.velocity.y);
+        rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
 
         if(Input.GetKeyDown(KeyCode.Space) && IsGrounded() == true)
         {
