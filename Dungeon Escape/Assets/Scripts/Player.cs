@@ -19,10 +19,15 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private float moveSpeed = 2.5f;
 
+    //handle player anim
+    private PlayerAnimation Anim;
+
     // Use this for initialization
     void Start () {
         //assign handle of rigidbody
         rb = GetComponent<Rigidbody2D>();
+        //assign handle to player anim
+        Anim = GetComponent<PlayerAnimation>();
     }
 	
 	// Update is called once per frame
@@ -35,13 +40,15 @@ public class Player : MonoBehaviour {
     {
         float move = Input.GetAxisRaw("Horizontal");
 
-        rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
-
         if(Input.GetKeyDown(KeyCode.Space) && IsGrounded() == true)
         {
             rb.velocity = new Vector2(rb.velocity.x, liftForce);
             StartCoroutine(ResetJumpRoutine());
         }
+
+        rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
+
+        Anim.Move(move);
     }
 
     IEnumerator ResetJumpRoutine()
