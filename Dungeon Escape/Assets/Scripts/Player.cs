@@ -20,14 +20,18 @@ public class Player : MonoBehaviour {
     private float moveSpeed = 2.5f;
 
     //handle player anim
-    private PlayerAnimation Anim;
+    private PlayerAnimation playerAnim;
+
+    SpriteRenderer playerSprite;
 
     // Use this for initialization
     void Start () {
         //assign handle of rigidbody
         rb = GetComponent<Rigidbody2D>();
         //assign handle to player anim
-        Anim = GetComponent<PlayerAnimation>();
+        playerAnim = GetComponent<PlayerAnimation>();
+
+        playerSprite = GetComponentInChildren<SpriteRenderer>();
     }
 	
 	// Update is called once per frame
@@ -40,7 +44,9 @@ public class Player : MonoBehaviour {
     {
         float move = Input.GetAxisRaw("Horizontal");
 
-        if(Input.GetKeyDown(KeyCode.Space) && IsGrounded() == true)
+        FlipDirection(move);
+
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded() == true)
         {
             rb.velocity = new Vector2(rb.velocity.x, liftForce);
             StartCoroutine(ResetJumpRoutine());
@@ -48,7 +54,19 @@ public class Player : MonoBehaviour {
 
         rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
 
-        Anim.Move(move);
+        playerAnim.Move(move);
+    }
+
+    void FlipDirection(float move)
+    {
+        //if move > 0, 
+        //  face right
+        //else
+        // face left
+        if (move > 0)
+            playerSprite.flipX = false;
+        else if (move < 0)
+            playerSprite.flipX = true;
     }
 
     IEnumerator ResetJumpRoutine()
