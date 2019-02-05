@@ -14,6 +14,7 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private LayerMask groundLayer;
 
+    private bool isGrounded = false;
     private bool resetJumpNeeded = false;
 
     [SerializeField]
@@ -43,6 +44,7 @@ public class Player : MonoBehaviour {
     public void Movement()
     {
         float move = Input.GetAxisRaw("Horizontal");
+        isGrounded = IsGrounded();
 
         FlipDirection(move);
 
@@ -50,6 +52,8 @@ public class Player : MonoBehaviour {
         {
             rb.velocity = new Vector2(rb.velocity.x, liftForce);
             StartCoroutine(ResetJumpRoutine());
+            //tell animator to jump
+            playerAnim.Jumping(true);
         }
 
         rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
@@ -79,11 +83,15 @@ public class Player : MonoBehaviour {
     public bool IsGrounded()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 
-            0.6f, groundLayer.value);
+            1f, groundLayer.value);
         if(hit.collider != null)
         {
             if(resetJumpNeeded == false)
+            {
+                //set animatorbool to false
+                playerAnim.Jumping(false);
                 return true;
+            }
         }
 
         return false;
