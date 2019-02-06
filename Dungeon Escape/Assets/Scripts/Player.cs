@@ -39,6 +39,8 @@ public class Player : MonoBehaviour {
 	void Update ()
     {
         Movement();
+
+        LeftMouseAttack();
     }
 
     public void Movement()
@@ -95,5 +97,20 @@ public class Player : MonoBehaviour {
         }
 
         return false;
+    }
+
+    public void LeftMouseAttack()
+    {
+        //if left clik && is groudned
+        //attack
+        /*if (Input.GetKeyDown(KeyCode.Mouse0) && IsGrounded())
+        {
+            playerAnim.Attacking();
+        }*/
+
+        if (Input.GetMouseButtonDown(0) && IsGrounded())
+        {
+            playerAnim.Attacking();
+        }
     }
 }
