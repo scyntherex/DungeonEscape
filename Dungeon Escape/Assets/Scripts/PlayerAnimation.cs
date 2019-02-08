@@ -7,10 +7,14 @@ public class PlayerAnimation : MonoBehaviour {
     //handle for animation
     private Animator playerAnim;
 
+    //reference to swrod anim
+    private Animator swordAnim;
+
 	// Use this for initialization
 	void Start () {
         //assign handle
         playerAnim = GetComponentInChildren<Animator>();
+        swordAnim = transform.GetChild(1).GetComponent<Animator>();
     }
 	
 	// Update is called once per frame
@@ -28,5 +32,7 @@ public class PlayerAnimation : MonoBehaviour {
     public void Attacking()
     {
         playerAnim.SetTrigger("Attack");
+        //play sword arc anim
+        swordAnim.SetTrigger("SwordAnimation");
     }
 }
