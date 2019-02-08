@@ -24,6 +24,7 @@ public class Player : MonoBehaviour {
     private PlayerAnimation playerAnim;
 
     SpriteRenderer playerSprite;
+    SpriteRenderer swordArcSprite;
 
     // Use this for initialization
     void Start () {
@@ -33,6 +34,8 @@ public class Player : MonoBehaviour {
         playerAnim = GetComponent<PlayerAnimation>();
 
         playerSprite = GetComponentInChildren<SpriteRenderer>();
+
+        swordArcSprite = transform.GetChild(1).GetComponent<SpriteRenderer>();
     }
 	
 	// Update is called once per frame
@@ -70,9 +73,26 @@ public class Player : MonoBehaviour {
         //else
         // face left
         if (move > 0)
+        {
             playerSprite.flipX = false;
-        else if (move < 0)
+            swordArcSprite.flipX = false;
+            swordArcSprite.flipY = false;
+
+            Vector3 newPos = swordArcSprite.transform.localPosition;
+            newPos.x = 1.01f;
+            swordArcSprite.transform.localPosition = newPos;
+        } 
+        else if (move < 0) 
+        {
             playerSprite.flipX = true;
+            swordArcSprite.flipX = true;
+            swordArcSprite.flipY = true;
+
+            Vector3 newPos = swordArcSprite.transform.localPosition;
+            newPos.x = -1.01f;
+            swordArcSprite.transform.localPosition = newPos;
+        }
+
     }
 
     IEnumerator ResetJumpRoutine()
