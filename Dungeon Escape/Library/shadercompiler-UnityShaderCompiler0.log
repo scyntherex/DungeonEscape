@@ -22,3 +22,5 @@ Cmd: compileComputeKernel
   api=9 insize=1957 outsize=3165 ok=1
 Cmd: preprocess
   insize=1495 outsize=207 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
