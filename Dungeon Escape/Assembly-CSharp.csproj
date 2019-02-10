@@ -76,6 +76,9 @@
     <Compile Include="Assets\Sprites\Tilemap\Tiles\Weighted Random Tile\WeightedRandomTile.cs" />
     <None Include="Assets\Sprites\Tilemap\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
     <None Include="Assets\Sprites\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/scyntherex/Documents/UnityProjects/Project2/DungeonEscape/Dungeon Escape/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/scyntherex/Documents/UnityProjects/Project2/DungeonEscape/Dungeon Escape/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -84,6 +87,9 @@
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>/Users/scyntherex/Documents/UnityProjects/Project2/DungeonEscape/Dungeon Escape/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/scyntherex/Documents/UnityProjects/Project2/DungeonEscape/Dungeon Escape/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/scyntherex/Documents/UnityProjects/Project2/DungeonEscape/Dungeon Escape/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

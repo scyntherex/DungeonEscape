@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{0EB5F87F-D67E-74C7-A680-2A7471C2CEB8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerAnimation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="113" Column="36" />
-      <File FileName="Assets/Scripts/PlayerAnimation.cs" Line="30" Column="38" />
+      <File FileName="Assets/Scripts/Player.cs" Line="92" Column="25" />
+      <File FileName="Assets/Scripts/PlayerAnimation.cs" Line="17" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
