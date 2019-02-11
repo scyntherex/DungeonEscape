@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 953, y: 471}
   m_MaxSize: {x: 22008, y: 14021}
   vertical: 0
-  controlID: 60
+  controlID: 125
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,7 +131,7 @@ MonoBehaviour:
     y: 0
     width: 769
     height: 637
-  m_MinSize: {x: 444, y: 342}
+  m_MinSize: {x: 444, y: 442}
   m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
   controlID: 61
@@ -228,14 +228,14 @@ MonoBehaviour:
     y: 285
     width: 769
     height: 352
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 471}
   m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 102
+  controlID: 126
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -382,7 +382,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -442,7 +442,7 @@ MonoBehaviour:
     m_CachedPref: -50
     m_ControlHash: 510661707
     m_PrefName: Preview_TilemapBrushInspector
-  m_Palette: {fileID: 1341669986735778, guid: 16c1b06390b9b4c59a02d17af3e9c446, type: 2}
+  m_Palette: {fileID: 1566919072681362, guid: 2ad1d9b26d1424d5f9a6b04d6a8caf3b, type: 2}
   m_Target: {fileID: 0}
 --- !u!114 &17
 MonoBehaviour:
@@ -586,14 +586,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
+    - e00: 0.71535045
       e01: 0
       e02: 0
-      e03: 0
+      e03: -47.718872
       e10: 0
-      e11: 1
+      e11: 0.71535045
       e12: 0
-      e13: 0
+      e13: 86.127945
       e20: 0
       e21: 0
       e22: 1
@@ -648,7 +648,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -14850
+  m_LastSelectedObjectID: -18774
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -676,9 +676,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8676ffff
-    m_LastClickedID: 0
-    m_ExpandedIDs: 5e94ffff14fbffff00000000
+    m_SelectedIDs: aab6ffff
+    m_LastClickedID: -18774
+    m_ExpandedIDs: 14fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -737,8 +737,7 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/CourseAssets/Sprites/Characters/Moss_Giant
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -752,7 +751,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 80310000
     m_LastClickedID: 12672
-    m_ExpandedIDs: 00000000f62b0000442e00007c300000b8350000423700005c370000b83700006a4700006c470000
+    m_ExpandedIDs: 00000000f62b0000ac2c0000442e0000482e00007c3000007a330000f8340000b8350000d6350000443700005e370000bc3700007a3c00008647000088470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -777,24 +776,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 972}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000f62b0000442e0000482e00007c3000007a33000024340000f8340000b8350000d6350000423700005c370000b837000060380000403d00004c3f00006a4700006c470000fa470000
+    m_ExpandedIDs: ffffffff00000000f62b0000442e0000482e00007c300000b8350000d6350000dc350000443700005e370000bc37000086470000884700002a480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Spider
+      m_OriginalName: Spider
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 18658
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
