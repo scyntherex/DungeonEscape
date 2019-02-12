@@ -8,4 +8,9 @@ public class MossGiant : Enemy
     {
         Attack();
     }
+
+    public override void Update()
+    {
+        Debug.Log("MossGiant Updating.");
+    }
 }
