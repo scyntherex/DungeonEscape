@@ -4,13 +4,34 @@ using UnityEngine;
 
 public class MossGiant : Enemy 
 {
-    public void Start()
+    private Vector3 currentTarget;
+
+    private void Start()
     {
-        Attack();
+
     }
 
     public override void Update()
     {
-        Debug.Log("MossGiant Updating.");
+        Movement();
+    }
+
+    void Movement()
+    {
+        float step = speed * Time.deltaTime;
+        //if current pos == point A
+        //move to point B
+        // else if current pos == pos B
+        //move to point A
+        if (transform.position == pointA.position)
+        {
+            currentTarget = pointB.position;
+        }
+        else if (transform.position == pointB.position)
+        {
+            currentTarget = pointA.position;
+        }
+        transform.position = Vector3.MoveTowards(transform.position,
+            currentTarget, step);
     }
 }
