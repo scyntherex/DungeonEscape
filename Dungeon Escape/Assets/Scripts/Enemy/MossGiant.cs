@@ -6,13 +6,21 @@ public class MossGiant : Enemy
 {
     private Vector3 currentTarget;
 
+    private Animator MossAnim;
+
     private void Start()
     {
-
+        MossAnim = GetComponentInChildren<Animator>();
     }
 
     public override void Update()
     {
+        //if idle anim active
+        //do nothing "return"
+        if (MossAnim.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+        {
+            return;
+        }
         Movement();
     }
 
@@ -31,6 +39,7 @@ public class MossGiant : Enemy
         {
             currentTarget = pointA.position;
         }
+
         transform.position = Vector3.MoveTowards(transform.position,
             currentTarget, step);
     }
