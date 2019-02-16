@@ -7,10 +7,12 @@ public class MossGiant : Enemy
     private Vector3 currentTarget;
 
     private Animator MossAnim;
+    private SpriteRenderer MossSprite; 
 
     private void Start()
     {
         MossAnim = GetComponentInChildren<Animator>();
+        MossSprite = GetComponentInChildren<SpriteRenderer>();
     }
 
     public override void Update()
@@ -21,11 +23,21 @@ public class MossGiant : Enemy
         {
             return;
         }
+
         Movement();
     }
 
     void Movement()
     {
+        if (currentTarget == pointA.position)
+        {
+            MossSprite.flipX = true;
+        }
+        else
+        {
+            MossSprite.flipX = false;
+        }
+
         float step = speed * Time.deltaTime;
         //if current pos == point A
         //move to point B
@@ -35,11 +47,13 @@ public class MossGiant : Enemy
         {
             currentTarget = pointB.position;
             MossAnim.SetTrigger("Idle");
+          
         }
         else if (transform.position == pointB.position)
         {
             currentTarget = pointA.position;
             MossAnim.SetTrigger("Idle");
+          
         }
 
         transform.position = Vector3.MoveTowards(transform.position,
