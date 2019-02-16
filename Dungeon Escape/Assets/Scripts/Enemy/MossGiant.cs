@@ -34,10 +34,12 @@ public class MossGiant : Enemy
         if (transform.position == pointA.position)
         {
             currentTarget = pointB.position;
+            MossAnim.SetTrigger("Idle");
         }
         else if (transform.position == pointB.position)
         {
             currentTarget = pointA.position;
+            MossAnim.SetTrigger("Idle");
         }
 
         transform.position = Vector3.MoveTowards(transform.position,
