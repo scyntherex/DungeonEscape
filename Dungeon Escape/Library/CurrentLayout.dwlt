@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 957, y: 492}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
-  controlID: 60
+  controlID: 101
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,10 +131,10 @@ MonoBehaviour:
     y: 0
     width: 769
     height: 634
-  m_MinSize: {x: 446, y: 421}
-  m_MaxSize: {x: 8006, y: 8021}
+  m_MinSize: {x: 446, y: 442}
+  m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 61
+  controlID: 81
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -470,14 +470,14 @@ MonoBehaviour:
     height: 262
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 539.0612850189209
+  lastFramingTime: 2481.2514489889145
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.6487665, y: 0.035859305, z: -0.079982065}
+    m_Target: {x: -44.90958, y: 1.781614, z: 0.0013775065}
     speed: 2
-    m_Value: {x: 11.6487665, y: 0.035859305, z: -0.079982065}
+    m_Value: {x: -44.90958, y: 1.781614, z: 0.0013775065}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -509,9 +509,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.604277
+    m_Target: 6.694138
     speed: 2
-    m_Value: 9.604277
+    m_Value: 6.694138
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -648,7 +648,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 17984
+  m_LastSelectedObjectID: 17924
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -676,9 +676,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42470000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 14fbffff0000000040460000f2460000
+    m_SelectedIDs: 6c8bffff
+    m_LastClickedID: -29844
+    m_ExpandedIDs: 6c8bffff14fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -738,7 +738,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Enemy
+    - Assets/Sprites/Characters/Spider
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -777,10 +777,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 140}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000fc2b00004a2e00004e2e000082300000c0350000de350000e4350000b03600004e37000068370000c63700009e470000a0470000
+    m_ExpandedIDs: ffffffff00000000fc2b00004a2e000032300000823000006e3200008233000000350000c0350000de350000e4350000b03600004e37000068370000c63700009e470000a0470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
