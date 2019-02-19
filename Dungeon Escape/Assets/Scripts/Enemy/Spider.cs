@@ -7,10 +7,12 @@ public class Spider : Enemy {
     private Vector3 target;
 
     private Animator spiderAnim;
+    private SpriteRenderer spiderSprite;
 
     public void Start()
     {
         spiderAnim = GetComponentInChildren<Animator>();
+        spiderSprite = GetComponentInChildren<SpriteRenderer>();
     }
 
     public override void Update()
@@ -24,6 +26,16 @@ public class Spider : Enemy {
 
     void Movement()
     {
+        //flip sprite
+        if(target == pointA.position)
+        {
+            spiderSprite.flipX = true;
+        }
+        else
+        {
+            spiderSprite.flipX = false;
+        }
+
         float step = speed * Time.deltaTime;
         //if current pos == point A
         //move to point B
@@ -42,7 +54,5 @@ public class Spider : Enemy {
 
         transform.position = Vector3.MoveTowards(transform.position,
             target, step);
-
-        //flip sprite
     }
 }
