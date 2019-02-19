@@ -17,6 +17,8 @@ public class Spider : Enemy {
 
     public override void Update()
     {
+        //if idle anim is playing
+        //do nothing
         if (this.spiderAnim.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
             return;
