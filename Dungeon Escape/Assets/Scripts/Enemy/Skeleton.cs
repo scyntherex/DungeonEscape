@@ -13,7 +13,7 @@ public class Skeleton : Enemy, IDamageable
 
     public void Damage()
     {
-
+        Debug.Log("Damage");
     }
 
 }
