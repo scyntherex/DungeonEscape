@@ -9,11 +9,20 @@ public class Skeleton : Enemy, IDamageable
     public override void Init()
     {
         base.Init();
+        //assign health property to enemy health.
+        Health = base.health;
     }
 
     public void Damage()
     {
-        Debug.Log("Damage");
+        //subtract 1 from health
+        Health--;
+        //if health < 1
+        // destroy object
+        if (Health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
 }
