@@ -631,7 +631,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: aa290000
     m_LastClickedID: 0
     m_ExpandedIDs: 14fbffff00000000
     m_RenameOverlay:
@@ -738,18 +738,18 @@ MonoBehaviour:
     m_ExpandedIDs: ffffffff00000000022c0000c62e00003a31000020350000b6360000d4360000da360000a6370000443800005e380000bc380000444300001c4900001e490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Skeleton
+      m_OriginalName: Skeleton
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10666
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 

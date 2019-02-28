@@ -19,7 +19,7 @@ public class Skeleton : Enemy, IDamageable
         Health--;
         //if health < 1
         // destroy object
-        if (Health <= 0)
+        if (Health < 1)
         {
             Destroy(this.gameObject);
         }
