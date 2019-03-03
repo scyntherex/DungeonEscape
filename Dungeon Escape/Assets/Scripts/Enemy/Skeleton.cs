@@ -18,6 +18,7 @@ public class Skeleton : Enemy, IDamageable
         //subtract 1 from health
         Health--;
         anim.SetTrigger("Hit");
+        isHit = true;
 
         //if health < 1
         // destroy object
