@@ -17,12 +17,12 @@ public class Skeleton : Enemy, IDamageable
     {
         //subtract 1 from health
         Health--;
+
         anim.SetTrigger("Hit");
         isHit = true;
         anim.SetBool("InCombat", true);
 
-        //if health < 1
-        // destroy object
+        //if health < 1, destroy object
         if (Health < 1)
         {
             Destroy(this.gameObject);
