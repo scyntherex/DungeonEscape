@@ -20,7 +20,7 @@ public abstract class Enemy : MonoBehaviour
     protected bool isHit = false;
 
     //variable to store player position.
-    private Player player;
+    protected Player player;
 
     public virtual void Init()
     {

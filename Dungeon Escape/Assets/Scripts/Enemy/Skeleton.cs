@@ -13,6 +13,23 @@ public class Skeleton : Enemy, IDamageable
         Health = base.health;
     }
 
+    public override void Movement()
+    {
+        base.Movement();
+
+        Vector3 direction = player.transform.localPosition
+            - transform.localPosition;
+        Debug.Log("Side: " + direction);
+
+        if (direction.x < 0 && anim.GetBool("InCombat") == true)
+        {
+            sprite.flipX = true;
+        } else if (direction.x > 0 && anim.GetBool("InCombat") == true)
+        {
+            sprite.flipX = false;
+        }
+    }
+
     public void Damage()
     {
         //subtract 1 from health
