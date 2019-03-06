@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour, IDamageable {
 
 
     //get handle to rigidbody
@@ -25,6 +25,8 @@ public class Player : MonoBehaviour {
 
     SpriteRenderer playerSprite;
     SpriteRenderer swordArcSprite;
+
+    public int Health { get; set; }
 
     // Use this for initialization
     void Start () {
@@ -132,5 +134,10 @@ public class Player : MonoBehaviour {
         {
             playerAnim.Attacking();
         }
+    }
+
+    public void Damage()
+    {
+        Debug.Log("Player has been damaged!");
     }
 }

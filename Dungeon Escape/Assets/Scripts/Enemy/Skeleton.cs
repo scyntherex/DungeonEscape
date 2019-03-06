@@ -19,7 +19,7 @@ public class Skeleton : Enemy, IDamageable
 
         Vector3 direction = player.transform.localPosition
             - transform.localPosition;
-        Debug.Log("Side: " + direction);
+        //Debug.Log("Side: " + direction);
 
         if (direction.x < 0 && anim.GetBool("InCombat") == true)
         {
