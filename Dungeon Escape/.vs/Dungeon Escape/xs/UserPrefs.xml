@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{0EB5F87F-D67E-74C7-A680-2A7471C2CEB8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/Skeleton.cs">
     <Files>
       <File FileName="Assets/Scripts/IDamageable.cs" Line="7" Column="19" />
       <File FileName="Assets/Scripts/Enemy/Skeleton.cs" Line="22" Column="11" />
       <File FileName="Assets/Scripts/Enemy/Enemy.cs" Line="23" Column="14" />
-      <File FileName="Assets/Scripts/Player/Player.cs" Line="140" Column="6" />
-      <File FileName="Assets/Scripts/Attack.cs" Line="12" Column="11" />
+      <File FileName="Assets/Scripts/Enemy/MossGiant.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
