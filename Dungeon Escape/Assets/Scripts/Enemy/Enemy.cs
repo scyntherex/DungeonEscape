@@ -91,5 +91,17 @@ public abstract class Enemy : MonoBehaviour
             anim.SetBool("InCombat", false);
         }
 
+        Vector3 direction = player.transform.localPosition
+            - transform.localPosition;
+        //Debug.Log("Side: " + direction);
+
+        if (direction.x < 0 && anim.GetBool("InCombat") == true)
+        {
+            sprite.flipX = true;
+        }
+        else if (direction.x > 0 && anim.GetBool("InCombat") == true)
+        {
+            sprite.flipX = false;
+        }
     }
 }
