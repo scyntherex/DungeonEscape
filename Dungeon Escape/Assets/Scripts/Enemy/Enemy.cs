@@ -16,6 +16,7 @@ public abstract class Enemy : MonoBehaviour
     protected Vector3 currentTarget;
     protected Animator anim;
     protected SpriteRenderer sprite;
+    protected bool isDead = false;
 
     protected bool isHit = false;
 
@@ -40,11 +41,13 @@ public abstract class Enemy : MonoBehaviour
         //if idle anim active
         //do nothing "return"
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("Idle") &&
-            anim.GetBool("InCombat") == false)
+            anim.GetBool("InCombat") == false || isDead == true)
         {
             return;
         }
-        Movement();
+
+        if(isDead == false)
+            Movement();
     }
 
     public virtual void Movement()

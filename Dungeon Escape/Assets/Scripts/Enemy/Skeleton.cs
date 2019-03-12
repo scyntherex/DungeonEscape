@@ -27,10 +27,11 @@ public class Skeleton : Enemy, IDamageable
         isHit = true;
         anim.SetBool("InCombat", true);
 
-        //if health < 1, destroy object
+        //if health < 1, trigger death animation
         if (Health < 1)
         {
-            Destroy(this.gameObject);
+            isDead = true;
+            anim.SetTrigger("Death");
         }
     }
 
