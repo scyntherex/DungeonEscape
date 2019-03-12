@@ -11,10 +11,17 @@ public class Spider : Enemy, IDamageable
     public override void Init()
     {
         base.Init();
+
+        Health = base.health;
     }
 
     public void Damage()
     {
+        Health--;
+        if (Health < 1)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     public override void Movement()
