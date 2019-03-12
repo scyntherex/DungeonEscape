@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour, IDamageable {
 
+    //variable for amount of diamonds.
+    public int Gems;
 
     //get handle to rigidbody
     private Rigidbody2D rb;
