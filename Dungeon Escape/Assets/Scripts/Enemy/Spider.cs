@@ -22,6 +22,9 @@ public class Spider : Enemy, IDamageable
 
     public void Damage()
     {
+        if (isDead == true)
+            return;
+
         Health--;
         if (Health < 1)
         {

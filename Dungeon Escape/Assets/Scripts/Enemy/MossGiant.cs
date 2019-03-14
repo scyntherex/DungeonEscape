@@ -21,6 +21,9 @@ public class MossGiant : Enemy, IDamageable
 
     public void Damage()
     {
+        if (isDead == true)
+            return;
+
         //subtract 1 from health
         Health--;
 
