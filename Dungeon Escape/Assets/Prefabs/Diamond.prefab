@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b8e2f907a9bb483caa739d0edef4f45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gems: 1
 --- !u!212 &212033352555850422
 SpriteRenderer:
   m_ObjectHideFlags: 1

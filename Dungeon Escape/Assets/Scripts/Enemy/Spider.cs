@@ -27,6 +27,12 @@ public class Spider : Enemy, IDamageable
         {
             isDead = true;
             anim.SetTrigger("Death");
+
+            //spawn diamond
+            GameObject diamond = Instantiate(diamondPrefab, transform.position,
+                Quaternion.identity);
+            //change value of diamond to gem count equivalent
+            diamond.GetComponent<Diamond>().gems = base.gems;
         }
     }
 
