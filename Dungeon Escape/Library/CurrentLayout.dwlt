@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 684
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -153,8 +153,8 @@ MonoBehaviour:
     y: 0
     width: 769
     height: 283
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -179,8 +179,8 @@ MonoBehaviour:
     y: 283
     width: 769
     height: 351
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.08052991, y: 0.79458964, z: 0.033527285}
+    m_Target: {x: 17.50978, y: -15.593286, z: 0.0068359375}
     speed: 2
-    m_Value: {x: 0.08052991, y: 0.79458964, z: 0.033527285}
+    m_Value: {x: 17.50978, y: -15.593286, z: 0.0068359375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -430,9 +430,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.633684
+    m_Target: 3.7807314
     speed: 2
-    m_Value: 2.633684
+    m_Value: 3.7807314
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -648,9 +648,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c490000
-    m_LastClickedID: 18748
-    m_ExpandedIDs: 14fbffff00000000
+    m_SelectedIDs: 1ed9ffff
+    m_LastClickedID: -9954
+    m_ExpandedIDs: 14fbffff0000000054490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -710,7 +710,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/CourseAssets/Sprites/Tiles/Environmental_Tiles
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -749,10 +749,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 9.984253}
+    scrollPos: {x: 0, y: 251.98828}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000082c0000ca2e00007a3100005035000092370000b0370000b637000024380000243900003e3900009c390000ea4000005a43000060430000cc440000e4460000284b00002a4b0000
+    m_ExpandedIDs: ffffffff00000000082c0000ca2e00007a3100005435000092370000b637000024380000243900003e3900009c390000323f00007c41000060430000cc440000e4460000284b00002a4b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
