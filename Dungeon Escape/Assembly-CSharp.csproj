@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\Shop\Shop.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\Sprites\Tilemap\Brushes\Tint Brush Smooth\Scripts\TintTextureGenerator.cs" />
     <Compile Include="Assets\Sprites\Tilemap\GridInformation\Scripts\GridInformation.cs" />
     <Compile Include="Assets\Sprites\Tilemap\Tiles\Animated Tile\Scripts\AnimatedTile.cs" />

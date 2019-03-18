@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{0EB5F87F-D67E-74C7-A680-2A7471C2CEB8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Shop/Shop.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/UIManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Shop/Shop.cs" Line="7" Column="33" />
+      <File FileName="Assets/Scripts/Shop/Shop.cs" Line="18" Column="13" />
+      <File FileName="Assets/Scripts/UI/UIManager.cs" Line="18" Column="10" />
+      <File FileName="Assets/Scripts/Player/Player.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
