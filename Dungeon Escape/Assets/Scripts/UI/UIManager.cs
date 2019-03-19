@@ -19,6 +19,7 @@ public class UIManager : MonoBehaviour {
     }
 
     public Text playerGemCountText;
+    public Image selectionImg;
 
     public void OpenShop(int gemCount)
     {
