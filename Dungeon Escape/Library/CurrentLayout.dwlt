@@ -620,7 +620,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 19166
+  m_LastSelectedObjectID: 18784
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -647,9 +647,9 @@ MonoBehaviour:
     height: 342
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 187}
-    m_SelectedIDs: 86490000
-    m_LastClickedID: 18822
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 60490000
+    m_LastClickedID: 18784
     m_ExpandedIDs: 14fbffff00000000864900001e4a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -749,7 +749,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 99.98584}
+    scrollPos: {x: 0, y: 117.98694}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff000000000c2c0000cc2c0000ce2e00007e3100008e3400005435000096370000ba370000283800009238000044390000a2390000723c000068430000d4440000ec46000094470000f04b0000f24b0000
