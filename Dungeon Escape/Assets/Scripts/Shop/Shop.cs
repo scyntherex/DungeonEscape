@@ -65,10 +65,14 @@ public class Shop : MonoBehaviour {
         //check if player gems is >= item cost.
         if (player.Gems >= selectedCost)
         {
+            if(itemSelected == 2)
+            {
+                GameManager.Instance.HasKeyToCastle = true;
+            }
             //if it is, award item (subtract cost from player's gems.
             player.Gems -= selectedCost;
-            Debug.Log("Purcahsed: " + itemSelected + ". " + player.Gems 
-                + " remaining.");
+            //Debug.Log("Purcahsed: " + itemSelected + ". " + player.Gems 
+            //    + " remaining.");
             shopPanel.SetActive(false);
         }
         else
