@@ -142,4 +142,10 @@ public class Player : MonoBehaviour, IDamageable {
     {
         Debug.Log("Player has been damaged!");
     }
+
+    public void AddGems(int amount)
+    {
+        Gems += amount;
+        UIManager.UIinstance.UpdateGemCount(Gems);
+    }
 }
