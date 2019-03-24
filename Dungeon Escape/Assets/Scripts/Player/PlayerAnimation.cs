@@ -35,4 +35,9 @@ public class PlayerAnimation : MonoBehaviour {
         //play sword arc anim
         swordAnim.SetTrigger("SwordAnimation");
     }
+
+    public void Dying()
+    {
+        playerAnim.SetTrigger("Death");
+    }
 }
