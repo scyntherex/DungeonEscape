@@ -1,8 +1,8 @@
 Android
 PlayerPath?
-/Users/scyntherex/Documents/UnityProjects/Project2/DungeonEscape/Dungeon Escape/Demo.apk
+/Users/scyntherex/Documents/UnityProjects/Project2/Builds/Demo0p3.apk
 SceneListBegin?
-Assets/Scenes/SampleScene.unity
+Assets/Scenes/Game.unity
 SceneListEnd?
 8ef0c7ee81abe4b89a27b3a0d1ce3b03 Cinemachine.dll:Cinemachine.CinemachineStateDrivenCamera
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
