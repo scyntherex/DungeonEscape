@@ -1,4 +1,0 @@
-#Wed Apr 03 17:12:31 PDT 2019
-base.0=/Users/scyntherex/Documents/UnityProjects/Project2/DungeonEscape/Dungeon Escape/Temp/gradleOut/build/intermediates/transforms/dex/release/0
-path.0=classes.dex
-renamed.0=classes.dex
