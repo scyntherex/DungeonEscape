@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/scyntherex/Documents/UnityProjects/Project2/Builds/Demo0p7.apk
+/Users/scyntherex/Documents/UnityProjects/Project2/Builds/Demo0p8.apk
 SceneListBegin?
 Assets/Scenes/Game.unity
 SceneListEnd?
@@ -75,6 +75,8 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 b827b25f832158fdaa480c476121350e Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
+486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 c902e31672e5f721a2b8055d8b6fe2f3 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.WaterBase
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -319,3 +321,4 @@ aeaaa8efeb42f68fa87284e33a381048 Assembly-CSharp.dll:.Spider
 36ed8d92a07a53bf383bc90e377cc388 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.PlayerAnimation
 695c9335429d4798b6f74ca73c042ff4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.AdsManager

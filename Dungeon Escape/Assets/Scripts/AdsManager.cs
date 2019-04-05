@@ -4,12 +4,10 @@ using UnityEngine;
 using UnityEngine.Advertisements;
 
 public class AdsManager : MonoBehaviour {
+
     public void ShowRewardedAd()
     {
         Debug.Log("Showing Rewarded Ad.");
-
-        //Check if ad is ready
-        //Show(rewardedVideo)
 
         if(Advertisement.IsReady("rewardedVideo"))
         {
@@ -25,7 +23,10 @@ public class AdsManager : MonoBehaviour {
         switch(result)
         {
             case ShowResult.Finished:
-                //award 100 gems
+                //award 100 diamonds
+                GameManager.Instance.Player.AddGems(100);
+                UIManager.UIinstance.OpenShop(GameManager.Instance.
+                    Player.Gems);
                 break;
             case ShowResult.Skipped:
                 Debug.Log("Skipped ad yields no reward.");
