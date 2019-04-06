@@ -30,6 +30,7 @@ public class Shop : MonoBehaviour {
         if (other.tag == "Player")
         {
             shopPanel.SetActive(false);
+            UIManager.UIinstance.UpdateGemCount(player.Gems);
         }
     }
 
@@ -73,6 +74,7 @@ public class Shop : MonoBehaviour {
             player.Gems -= selectedCost;
             //Debug.Log("Purcahsed: " + itemSelected + ". " + player.Gems 
             //    + " remaining.");
+            UIManager.UIinstance.UpdateGemCount(player.Gems);
             shopPanel.SetActive(false);
         }
         else

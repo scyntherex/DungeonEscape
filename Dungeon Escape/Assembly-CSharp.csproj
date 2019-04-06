@@ -71,6 +71,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\AdsManager.cs" />
     <Compile Include="Assets\Scripts\Attack.cs" />
+    <Compile Include="Assets\Scripts\CastleDoor.cs" />
     <Compile Include="Assets\Scripts\Diamond.cs" />
     <Compile Include="Assets\Scripts\Enemy\AcidEffect.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\Enemy\SpiderAnimationEvent.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\IDamageable.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\Shop\Shop.cs" />
